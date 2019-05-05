@@ -1,0 +1,24 @@
+<!-- 音乐的模板 -->
+<template name = "music">
+	<view class="song">
+		<image src='http://p3.music.126.net/9xRQ4-Mzi_-CS5GoSd7zqw==/109951163997403794.jpg?param=200y200' mode='widthFix'></image>
+		<text>一百ss sdsd网格可能</text>
+	</view>
+</template>
+
+<!-- 热门歌曲 -->
+<template name = "music_hot">
+	<view class="home-hot">
+		<view class="hot-item" wx:for="0">
+			<navigator class="hot-head" hover-class='none'>
+				<image src="/images/music.png" mode='widthFix'></image>
+				<text>热门歌曲</text>
+			</navigator>
+			<view class="hot-body">
+				<view class="song-list listnum" >
+			  	<template is="music" wx:for="000000"/>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>

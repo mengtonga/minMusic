@@ -1,0 +1,36 @@
+
+/* 热门歌单 */
+.home-hot{
+	padding: 10px;
+}
+.home-hot .hot-item .hot-head image{
+	width: 80rpx;
+	vertical-align: bottom;
+}
+.home-hot .hot-item .hot-head text{
+	vertical-align: bottom;
+}
+.listnum .song{
+	margin-right:3.5%; 
+	width: 30%;
+}
+.listnum .song:nth-child(3n){
+	margin-right:0; 
+	
+}
+.song-list{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.song image{
+	width: 100%;
+}
+.song text{
+	padding: 0 0 8px;
+	display:block;
+	font-size: 12px;
+	line-height: 1.5;
+	max-height: 35px;
+	overflow: hidden;
+}

@@ -1,0 +1,15 @@
+<!-- 底部播放 -->
+<template name = "playerBottem">
+	<view class="bottom-play">
+		<view class="play-cover">
+			<image src='http://p3.music.126.net/9xRQ4-Mzi_-CS5GoSd7zqw==/109951163997403794.jpg?param=200y200' mode='widthFix'></image>
+		</view>
+		<view class="play-btn">
+			<image src='/images/play.png'></image>
+		</view>
+		<view class="play-album">
+			<text class="substr" >有一百万万rfr aef浮动啊覅发if奥覅偶艾尔IPAor反绒皮砍价are gtae g</text>
+			<text>歌手</text>
+		</view>
+	</view>
+</template>

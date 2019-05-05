@@ -1,0 +1,36 @@
+<!--pages/home/home.wxml-->
+<import src="../template/music.wxml"/>
+<import src="../template/public/playerBottem.wxml"/>
+<view class="cantaner"  >
+
+	<!-- 头部 -->
+	<view class= "header">
+		<navigator hover-class='on' class="on" >推荐</navigator>
+		<navigator hover-class='on'>歌单</navigator>
+		<navigator hover-class='on'>搜索</navigator>
+	</view>
+	<!-- banner -->
+	<view class="home-banner">
+		<swiper indicator-dots
+						indicator-color="#fff"
+						indicator-active-color='#87DAFB'
+						interval="3000"
+						autoplay=true
+						circular=true
+						>
+			<swiper-item wx:for="000">
+				<image src='/images/11.jpg'></image>
+			</swiper-item>
+		</swiper>
+	
+	</view>
+	<!-- 国家地区 -->
+	<view class="home-area">
+		<navigator wx:for="00000">
+			<image src='/images/music.png' mode='widthFix'></image>
+			<text>欧美</text>
+		</navigator>
+	</view>
+<template is="music_hot" wx:for="00"/>
+</view>
+<template is="playerBottem"/>

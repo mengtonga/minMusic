@@ -1,0 +1,15 @@
+{
+	"pages": [
+		"pages/home/test",
+		"pages/home/home",
+		"pages/index/index",
+		"pages/logs/logs"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#9DE8F7",
+		"navigationBarTitleText": "音乐播放器",
+		"navigationBarTextStyle": "white"
+	},
+	"sitemapLocation": "sitemap.json"
+}
